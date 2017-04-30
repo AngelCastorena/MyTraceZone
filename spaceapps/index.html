@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>MyTraceZone</title>
+    <link href="css/style.css" rel="stylesheet"/>
+    <link href="css/map.css" rel="stylesheet"/>
+    <!--JQUERY Y TAMBIEN MAPA -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBsqGWMMZy70AWfDdSoP8Esefp9vbd0Zao&libraries=places"></script>
+    <script type="text/javascript" src="js/mapa.js"></script>
+    
+
+
+  </head>
+  <body>
+    <header class="main_cabecera">
+        <div class="center">
+          <div class="banner">MyTraceZone</div>
+
+        <div class="login">
+          <form id="login">
+            <div id="status_login"></div>
+            <input type="text" name="user" id="user" placeholder="Usuario" class="input_user">
+            <input type="password" name="password" id="password" placeholder="Contraseña">
+            <input type="submit" value="Login">
+          </form>
+        </div>
+
+        </div>
+    </header>
+
+    <!--Aqui ponemos todo lo de section con el mapa -->
+
+
+    <section id="section" class="center">
+
+      <div id="menus">
+        <form>
+        <input id="pac-input" type="text"
+          placeholder="Enter a location">
+          <input id="envia_geo" value="Buscar" type="submit">
+        </form>
+      </div>
+
+          <!-- Mapa-->
+          <div id="map">
+
+
+
+
+
+          </div>
+          <iframe width="900" height="800"
+            src="https://www.youtube.com/embed/xuO7c5E7T9c">
+          </iframe>
+
+    </section>
+
+  </body>
+</html>

@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: #F5F5DC;
+}
+.center{
+
+  width: 90%;
+  overflow: hidden;
+  margin: auto;
+  max-width: 1200px;
+
+}
+
+.main_cabecera{
+
+  width: 100%;
+  overflow: hidden;
+  background-color: #363535;
+  margin-bottom: 10px;
+
+}
+
+.main_cabecera .banner{
+
+  line-height: 100px;
+  float: left;
+  font-size: 20px;
+  color: #fff;
+
+
+}
+.main_cabecera .login{
+  float: right;
+  display: inline-block;
+  margin: auto;
+  line-height: 100px;
+}
+
+.main_cabecera .login input[type="text"], .main_cabecera .login input[type="password"], .main_cabecera .login input[type="submit"]{
+
+  border:none;
+  padding: 7px 8px;
+  border-radius: 2px;
+}
+.main_cabecera .login input[type="submit"]{
+  width: 80px;
+}
+
+.main_cabecera .login input[type="submit"]:hover{
+  background-color: orange;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+.main_cabecera .banner:hover, .register form input[type="submit"]:hover{
+  background-color: orange;
+  transition: all 500ms ease;
+  cursor: pointer;
+}
+
+
+
+/*Section*/
+
+#section{
+
+  background-color: #363535;
+  height: 900px;
+  border-radius: 5px;
+  color: white;
+  padding: 20px;
+  margin-top: 30px;
+
+}
+
+#map_mark{
+  color: black;
+}
+
+#menus{
+  border-radius: 10px;
+  display: inline-block;
+
+
+}
+
+#menus input{
+  margin-left: 10px;
+  border:none;
+  padding: 7px 8px;
+  border-radius: 2px;
+}
+
+#menus SELECT{
+  width: 100px;
+  height: 29px;
+}
