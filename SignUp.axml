@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="20dip">
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Name"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/txtUserName"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="UserName"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_marginTop="15dip"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="30dip" />
+    <EditText
+        android:id="@+id/txtPassConfir"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:hint="PasswordConfir"
+        android:inputType="textPassword"
+        android:layout_marginTop="15dip"
+        android:layout_marginBottom="30dip" />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="REGISTER"
+        android:layout_gravity="center_horizontal"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip" />
+</LinearLayout>
